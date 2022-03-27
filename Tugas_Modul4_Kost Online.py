@@ -10,6 +10,7 @@ class login_method:
         print()
         print("         KOST YANG TERSEDIA      \n ")
         print(f'1. {self.list1} (JAKARTA)\n2. {self.list2} (SEMARANG)\n3. {self.list3} (BALI)\n4. {self.list4} (TANGGERANG)\n')
+        
 from method import *
 pembuka = login_method("KOST KUTANG", "KOST MAWAR", "KOST MELATI", "KOST KAKI")
 pembuka.awal()
