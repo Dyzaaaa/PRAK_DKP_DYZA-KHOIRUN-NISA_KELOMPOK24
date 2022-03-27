@@ -6,6 +6,7 @@ class login_method:
         self.list4 = list4
 
     def awal(self):
+        print()
         print("===== SELAMAT DATANG DI IBUKOST =====")
         print()
         print("         KOST YANG TERSEDIA      \n ")
@@ -17,7 +18,7 @@ pembuka.awal()
 #function 
 def user ():
     print("LOGIN BERHASIL\n")
-    nama = str(input('MASUKAN NAMA LENGKAP: '))
+    nama = str(input('MASUKKAN NAMA LENGKAP: '))
     kost = int(input("PILIH KOST: "))
     while(True):
         if (kost == 1):
@@ -68,12 +69,12 @@ def user ():
 def masuk(x):
     percobaan = 1
     for i in range (percobaan):
-        if x == "RENAN":
-            print(f"SELAMAT DATANG {x}")
+        if x > "17":
+            print(f"SELAMAT DATANG!")
             user()
             break;
         else:
-            print("ID BELUM TERDAFTAR")
+            print("MAAF ANDA BELUM CUKUP UMUR")
             
         
-masuk(input("MASUKAN NAMA: "))
+masuk(input("MASUKKAN UMUR ANDA: "))
