@@ -55,7 +55,7 @@ def user ():
             print("SELAMAT DATANG DI KOST KAKI\nFASILITAS: AC DAN KAMAR MANDI LUAR")
             harga = 2000000
             print("HARGA: 2 jt / bulan")
-            bulan = int(input("DURASI SEWA(BULAN):"))
+            bulan = int(input("DURASI SEWA (BULAN):"))
             ht = harga * bulan
             print("TOTAL YANG HARUS DIBAYAR: ",ht)
             print("///////////////////////")
