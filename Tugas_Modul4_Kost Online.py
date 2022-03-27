@@ -40,3 +40,13 @@ def user ():
             print("///////////////////////")
             print("TERIMA KASIH",nama,"SUDAH MEMPERCAYAI IBU KOST")
             break;
+        elif (kost == 3)
+            print("SELAMAT DATANG DI KOST MELATI\nFASILITAS: KOLAM IKAN DALAM DAN KAMAR MANDI LUAR")
+            harga = 1700000
+            print("HARGA: 1,7 jt / bulan")
+            bulan = int(input("DURASI SEWA(BULAN):"))
+            ht = harga * bulan
+            print("TOTAL YANG HARUS DIBAYAR: ",ht)
+            print("///////////////////////")
+            print("TERIMA KASIH",nama,"SUDAH MEMPERCAYAI IBU KOST")
+            break;
