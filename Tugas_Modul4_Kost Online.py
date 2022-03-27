@@ -70,7 +70,7 @@ def masuk(x):
     percobaan = 1
     for i in range (percobaan):
         if x == "RENAN":
-            print(f"SELAMAT DATANG {X}")
+            print(f"SELAMAT DATANG {x}")
             user()
             break;
         else:
