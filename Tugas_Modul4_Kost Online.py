@@ -18,7 +18,7 @@ pembuka.awal()
 #function 
 def user ():
     print("LOGIN BERHASIL\n")
-    nama = str(input('MASUKKAN NAMA LENGKAP: '))
+    nama = str(input('MASUKAN NAMA LENGKAP: '))
     kost = int(input("PILIH KOST: "))
     while(True):
         if (kost == 1):
@@ -55,7 +55,7 @@ def user ():
             print("SELAMAT DATANG DI KOST KAKI\nFASILITAS: AC DAN KAMAR MANDI LUAR")
             harga = 2000000
             print("HARGA: 2 jt / bulan")
-            bulan = int(input("DURASI SEWA (BULAN):"))
+            bulan = int(input("DURASI SEWA(BULAN):"))
             ht = harga * bulan
             print("TOTAL YANG HARUS DIBAYAR: ",ht)
             print("///////////////////////")
@@ -69,12 +69,12 @@ def user ():
 def masuk(x):
     percobaan = 1
     for i in range (percobaan):
-        if x > "17":
-            print(f"SELAMAT DATANG!")
+        if x == "RENAN":
+            print(f"SELAMAT DATANG {X}")
             user()
             break;
         else:
-            print("MAAF ANDA BELUM CUKUP UMUR")
+            print("ID BELUM TERDAFTAR")
             
         
-masuk(input("MASUKKAN UMUR ANDA: "))
+masuk(input("MASUKAN ID: "))
