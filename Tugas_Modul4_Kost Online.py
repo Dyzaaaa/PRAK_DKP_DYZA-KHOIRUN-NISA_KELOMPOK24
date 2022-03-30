@@ -77,4 +77,4 @@ def masuk(x):
             print("ID BELUM TERDAFTAR")
             
         
-masuk(input("MASUKAN ID: "))
+masuk(input("MASUKAN USERNAME: "))
